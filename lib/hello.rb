@@ -6,9 +6,11 @@ def hello_t(array)
     yield array[i] # i represents the index position here and           #will yield whatever is in that index position
     i = i + 1
   end
+  
   array 
   else 
   puts "Hey! No block was given!"
+  end
 end
 
 # call your method here!
