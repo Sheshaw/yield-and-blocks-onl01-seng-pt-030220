@@ -5,6 +5,7 @@ def hello_t(array)
     yield array[i] # i represents the index position here and           #will yield whatever is in that index position
     i = i + 1
   end
+  array
 end
 
 # call your method here!
